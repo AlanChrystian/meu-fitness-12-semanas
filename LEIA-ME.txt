@@ -1,0 +1,20 @@
+MEU FITNESS — 12 SEMANAS
+========================
+
+Conteúdo:
+- index.html: aplicativo.
+- manifest.webmanifest: metadados PWA.
+- sw.js: cache para uso offline após a primeira abertura.
+- icon.svg: ícone.
+
+COMO USAR
+1. Para testar agora, abra index.html em um navegador moderno. Os registros ficam no armazenamento local desse navegador.
+2. Para instalar como PWA de verdade, publique os arquivos em uma hospedagem HTTPS (por exemplo, GitHub Pages ou Netlify). O modo PWA e o service worker não funcionam plenamente abrindo o arquivo localmente.
+3. Abra o endereço HTTPS no Chrome do Android, toque no menu ⋮ e escolha "Instalar app" ou "Adicionar à tela inicial".
+4. Use "Dados > Exportar backup JSON" regularmente. Para restaurar, use "Importar backup".
+
+OBSERVAÇÕES
+- Dados são armazenados localmente no navegador, não sincronizados entre aparelhos.
+- O backup é um arquivo JSON; mantenha-o em local seguro.
+- Metas nutricionais são editáveis e estimativas gerais, não aconselhamento médico.
+- Este é um protótipo simples; revise os registros e mantenha backups.
